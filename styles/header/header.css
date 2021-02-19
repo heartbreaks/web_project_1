@@ -1,0 +1,15 @@
+@import url(./__title/header__title.css);
+@import url(./__logo/header__logo.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__square/header__square.css);
+@import url(./__main-illustration/header__main-illustration.css);
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f2f2f2;
+    position: relative;
+    min-height: 600px;
+    max-height: 756px;
+}
