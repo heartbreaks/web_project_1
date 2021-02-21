@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3666d062-e145-4ca5-a19d-c529e66d45be" name="Default Changelist" comment="End of project">
-      <change afterPath="$PROJECT_DIR$/styles/header/__logo/header__logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header/__main-illustration/header__main-illustration.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header/__square/header__square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header/__subtitle/header__subtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header/__title/_space_left/header__title_space_left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header/__title/header__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/pages/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/two-columns/__brief/two-columns__brief.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/two-columns/__main-text/__paragraph/_space_bottom/two-columns__paragraph_space_bottom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/two-columns/__main-text/__paragraph/two-columns__paragraph.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/two-columns/__main-text/__span-accent/two-columns__span-accent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/two-columns/__main-text/two-columns__main-text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/two-columns/two-columns.css" afterDir="false" />
+    <list default="true" id="3666d062-e145-4ca5-a19d-c529e66d45be" name="Default Changelist" comment="Smashed a header and two-columns by BEM">
+      <change afterPath="$PROJECT_DIR$/styles/footer/__author/footer__author.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/__column-heading/footer__column-heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/__column-link/footer__column-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/__column-links/footer__column-links.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/__column/footer__column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/__columns/_content_copyright/footer__column_content_copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/__columns/footer_columns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/table/__cell/table__cell.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/table/__heading/table__heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/table/__text/table__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/table/table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header/__square/header__square.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header/__square/header__square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,12 @@
       <updated>1613418518319</updated>
       <workItem from="1613418520905" duration="361000" />
       <workItem from="1613738271932" duration="38000" />
-      <workItem from="1613738315186" duration="2659000" />
+      <workItem from="1613738315186" duration="6846000" />
+      <workItem from="1613749124045" duration="6000" />
+      <workItem from="1613813674004" duration="8676000" />
+      <workItem from="1613823152164" duration="7000" />
+      <workItem from="1613823322786" duration="1000" />
+      <workItem from="1613907402064" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="End of project">
       <created>1613418598449</created>
@@ -68,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613418598449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Smashed a header and two-columns by BEM">
+      <created>1613741342288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613741342289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="End of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of project" />
+    <MESSAGE value="Smashed a header and two-columns by BEM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smashed a header and two-columns by BEM" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
