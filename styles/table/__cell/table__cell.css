@@ -1,4 +1,6 @@
+@import url(./_theme_dark/table__cell_theme_dark.css);
+@import url(./_space_bottom/table__cell_space_bottom.css);
+
 .table__cell {
     width: 250px;
-    margin-bottom: 60px;
 }
