@@ -220,7 +220,7 @@
   overflow: hidden;
 }
 
-.kaufman__title__theme_dark {
+.kaufman__title_theme_dark {
   margin: 90px auto 0;
   text-align: center;
   width: 60%;
@@ -231,7 +231,7 @@
   z-index: 1;
 }
 
-.kaufman__subtitle__theme_dark {
+.kaufman__subtitle_theme_dark {
   margin: 20px auto 0;
   text-align: center;
   line-height: 34px;
@@ -242,7 +242,7 @@
 
 }
 
-.kaufman__space_bottom {
+.kaufman_space_bottom {
   margin-bottom: 80px;
 }
 
