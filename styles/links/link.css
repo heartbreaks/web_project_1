@@ -1,13 +1,13 @@
 .link {
-    color: #2f80ed;
-    text-decoration: none;
-    transition: 0.3s;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .link:hover {
-    opacity: .5;
+  opacity: .5;
 }
 
 .link::after {
-    content: ' →';
+  content: ' →';
 }

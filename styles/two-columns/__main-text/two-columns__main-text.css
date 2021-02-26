@@ -2,7 +2,7 @@
 @import url(./__span-accent/two-columns__span-accent.css);
 
 .two-columns__main-text {
-    margin: 0 auto;
-    width: 80%;
-    min-width: 784px;
+  margin: 0 auto;
+  min-width: 784px;
+  width: 80%;
 }

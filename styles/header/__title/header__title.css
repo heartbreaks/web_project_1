@@ -1,9 +1,9 @@
 @import url(./_space_left/header__title_space_left.css);
 
 .header__title {
-    max-width: 730px;
-    font-size: 102px;
-    line-height: 96px;
-    font-weight: bold;
-    align-self: center;
+  max-width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+  align-self: center;
 }
