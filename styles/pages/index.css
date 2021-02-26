@@ -61,6 +61,10 @@
 
 /*--------------------------------------*/
 
+.techniques {
+  margin-top: 100px;
+}
+
 /*------------Ted Talks-----------------*/
 
 .videos {
@@ -84,7 +88,9 @@
 }
 
 /*-------------------------------------*/
-
+.description {
+  margin-top: 100px;
+}
 /*-----------------oakley--------------*/
 .oakley {
   padding-top: 160px;
@@ -143,6 +149,7 @@
 
 .khan {
   background-color: #f2f2f2;
+  margin-top: 100px;
   padding-top: 105px;
   display: flex;
   flex-direction: column;
@@ -193,7 +200,7 @@
   display: flex;
 }
 
-.khan__book-pic_wrapper {
+.khan__wrapper {
   width: 620px;
   height: 608px;
   margin-right: 48px;
@@ -263,6 +270,7 @@
 .resources {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .resources__subtitle {
