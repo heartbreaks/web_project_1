@@ -37,7 +37,7 @@
   margin: 0 50px 60px;
 }
 
-.card__logo {
+.cards__logo {
   margin: 60px auto 43px;
   width: 160px;
   height: 160px;
@@ -283,7 +283,7 @@
 
 /*------------------------------*/
 
-.logo__place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
 }
