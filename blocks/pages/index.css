@@ -10,6 +10,7 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
@@ -222,6 +223,8 @@
   flex-wrap: wrap;
   width: 920px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .cards__item {
@@ -238,7 +241,7 @@
   margin-right: 0;
 }
 
-.cards__logo {
+.cards__image {
   margin: 60px 40px 43px;
   width: 160px;
   height: 160px;
@@ -271,7 +274,7 @@
 
 /*------------Ted Talks-----------------*/
 
-.videos {
+.video {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -280,11 +283,21 @@
   margin-top: 50px;
 }
 
-.video {
+.video__iframe {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
+}
+
+iframe.video__iframe {
+  width: 515px;
+  height: 316px;
+  border: none;
+}
+
+.video__iframe .video__iframe{
+  margin-top: 0;
 }
 
 .video__iframe:first-child {
@@ -392,7 +405,7 @@
 
 .khan__quote {
   width: 790px;
-  margin-bottom: 36px;
+  margin: 0 0 36px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -536,6 +549,14 @@
   height: 38px;
 }
 
+.resources__link {
+  transition: .3s;
+}
+
+.resources__link:hover {
+  opacity: .5;
+}
+
 /*------------------------------*/
 
 /* Footer */
@@ -589,7 +610,7 @@
 }
 
 .footer__column-heading {
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
   line-height: 45px;
   font-size: 18px;
@@ -597,7 +618,6 @@
   font-weight: bold;
   top: 0;
   left: 0;
-  margin-bottom: 20px;
 }
 
 .footer__column-links {
@@ -613,6 +633,11 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  transition: .3s;
+}
+
+.footer__column-link:hover {
+  opacity: .5;
 }
 
 .footer__social-icon {
