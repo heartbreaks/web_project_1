@@ -1,9 +1,0 @@
-@import url(./_theme_dark/table__heading_theme_dark.css);
-@import url(./title__space_bottom/title__space_bottom.css);
-
-.table__heading {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
